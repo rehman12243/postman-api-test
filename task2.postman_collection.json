@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "787ec0f6-401a-4280-b905-af27752032fd",
+		"name": "task2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14944663"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.qa.soum.sa/api-v2/rest/api/v1/product/?page%20number=2&size=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"qa",
+						"soum",
+						"sa"
+					],
+					"path": [
+						"api-v2",
+						"rest",
+						"api",
+						"v1",
+						"product",
+						""
+					],
+					"query": [
+						{
+							"key": "page%20number",
+							"value": "2"
+						},
+						{
+							"key": "size",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.qa.soum.sa/api-v2/rest/api/v1/product/?page%20number=&size=",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.qa.soum.sa/api-v2/rest/api/v1/product/?page%20number=&size=",
+					"protocol": "https",
+					"host": [
+						"api",
+						"qa",
+						"soum",
+						"sa"
+					],
+					"path": [
+						"api-v2",
+						"rest",
+						"api",
+						"v1",
+						"product",
+						""
+					],
+					"query": [
+						{
+							"key": "page%20number",
+							"value": ""
+						},
+						{
+							"key": "size",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
